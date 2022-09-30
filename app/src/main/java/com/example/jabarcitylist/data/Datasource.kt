@@ -2,8 +2,11 @@ package com.example.jabarcitylist.data
 
 import com.example.jabarcitylist.R
 import com.example.jabarcitylist.model.JabarCityList
-//Membuat class yang akan manjada sumber data
+
+
+//Membuat class yang akan manjadi sumber data yang akan ditampilkan
 class Datasource {
+    // fungsi untuk membuat list data yang akan ditampilkan
     fun loadJabarCityList(): List<JabarCityList> {
         return listOf<JabarCityList>(
             JabarCityList(R.string.kab_bandung, R.drawable.kabupaten_bandung),

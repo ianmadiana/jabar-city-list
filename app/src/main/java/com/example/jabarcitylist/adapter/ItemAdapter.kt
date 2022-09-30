@@ -14,6 +14,8 @@ import com.example.jabarcitylist.model.JabarCityList
 import java.lang.reflect.Type
 import java.text.FieldPosition
 
+
+//
 class ItemAdapter(
     private val context: Context,
     private val dataset: List<JabarCityList>
