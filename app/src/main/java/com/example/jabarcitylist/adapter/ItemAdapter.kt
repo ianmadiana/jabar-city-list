@@ -15,12 +15,13 @@ import java.lang.reflect.Type
 import java.text.FieldPosition
 
 
-//
+//kode class ItemAdapter berfungsi untuk menyesuaikan data atau informasi yang akan ditampilkan
 class ItemAdapter(
     private val context: Context,
     private val dataset: List<JabarCityList>
 ) : RecyclerView.Adapter<ItemAdapter.ItemViewHolder>() {
 
+    //kode untuk membuat dan melakukan tampilan untuk RecyclerView
     class ItemViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
         val textView: TextView = view.findViewById(R.id.item_title)
         val imageView: ImageView = view.findViewById(R.id.item_image)

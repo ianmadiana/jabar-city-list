@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
+<!--    kode konfigurasi agar layout diatur menjadi sebuah frame-->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

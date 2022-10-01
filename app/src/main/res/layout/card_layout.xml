@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--Bagian ini untuk mengatur material card-->
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -6,12 +8,13 @@
     android:layout_margin="8dp"
     android:background="#2196F3"
     app:cardCornerRadius="8dp">
-
+<!--  kode untuk mengatur agar dapat di-scroll ke bawah  -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+<!--        kode untuk menampilkan item gambar-->
         <ImageView
             android:id="@+id/item_image"
             android:layout_width="match_parent"
@@ -19,6 +22,7 @@
             android:background="#2196F3"
             android:scaleType="fitCenter" />
 
+<!--        kode untuk menampilkan keterangan gambar berupa teks-->
         <TextView
             android:id="@+id/item_title"
             android:layout_width="match_parent"
